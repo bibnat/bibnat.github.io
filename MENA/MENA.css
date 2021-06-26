@@ -42,7 +42,7 @@ body{
   color: blue;
 }
 .logo{
-  background-color: rgb(116, 116, 221);
+  /*background-color: rgb(116, 116, 221);*/
   text-align: center;
   position: flex;
   top: 0ch;
@@ -58,7 +58,7 @@ body{
   padding: 50px;
 }
 .servicios{
-  background-color: rgb(55, 160, 99);
+  /*background-color: rgb(55, 160, 99);*/
   text-align: center;
   position: flex;
   top: 0ch;
