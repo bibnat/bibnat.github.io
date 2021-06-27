@@ -5,6 +5,7 @@
  body{
      width: 100%;
      background-image: url(Imágenes/trabaja.png);
+      background-repeat: no-repeat; 
      /*font-family: 'Nunito Sans', sans-serif;*/
  }
  .header{
