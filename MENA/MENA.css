@@ -9,10 +9,9 @@ body{
   
 }
 .header{
-  background: white;
-  height: 50px;
-  width: 100%;
-  position: fixed;
+    display: block;
+    padding: 40px 0px;
+    background: white;
 }
 .menu{
   overflow: auto;
