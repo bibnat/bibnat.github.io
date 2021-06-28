@@ -24,6 +24,7 @@
             
             <section>    
                 <h2>Ingresa tus datos</h2>    
+                <form method="POST" id="my_form">
             <table width="388" height="278">
                 <tbody>
                     <tr>
@@ -50,24 +51,19 @@
                         <td width="111"><label for="search">FOTO:</label></td>
                         <td width="265"><input type="search" name="search" id="search"></td>
                     </tr>
-                    
+                    <tr>
+                        <td><label for="textarea">PRESENTACIÓN:</label>
+                            <textarea name="textarea" id="textarea"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset" form="my_form" name="reset" id="reset" value="Restablecer"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" form="my_form" name="submit" id="submit" value="Enviar"></td>
+                    </tr>
                 </tbody>
             </table>
-            <br>            
-            <p>
-                <label for="textarea">PRESENTACIÓN:</label>
-                <textarea name="textarea" id="textarea"></textarea>
-            </p>
-            <br>
-            <br>
-            <p>
-                <input type="reset" name="reset" id="reset" value="Restablecer">
-            </p>
-            <br>
-            <p>
-                <input type="submit" name="ENVIAR" id="submit" value="Enviar">
-            </p>
-           
+        </form>
         </section>    
         
     <footer class="pie">
