@@ -1,0 +1,78 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.titulo{
+    text-align: center; 
+    padding-top: 3%; 
+    background: burlywood;
+    padding-bottom: 3%;
+    font-size: 18px;
+}
+.header{
+    text-align: right;
+    margin-right: 4cm;
+    font-weight: bold;
+    padding-top: 1%;
+    font-size: 14px;
+    padding-bottom: 1%;
+}
+.cuerpo{
+    padding-left: 1%;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 1%;
+}
+.nya{
+    padding-block: 1%;
+}
+.cel{
+    padding-block: 1%;
+}
+.mail{
+    padding-block: 1%;
+}
+.input{
+    height: 1cm;
+    width: 30cm;
+}
+.rango{
+    padding-block: 1%;
+    padding-left: 1%;
+    font-size: 15px;
+}
+.hora{
+    padding-left: 4%;
+        
+}
+.consu{
+    padding-block: 1%;
+    padding-left: 1%;
+    font-size: 15px;
+}
+.textarea{
+    height: 5cm;
+    width: 30cm;
+    padding-block-end: 1cm;
+    text-align: justify;
+    
+}
+.enviar{
+    padding-block: 1cm;
+    text-align: center;
+    padding-left: 800px;    
+    padding-bottom: 1%;
+}
+.pie{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    background: burlywood;
+    height: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    margin-bottom: 0%;  
+    bottom:0%;
+    margin-top: 1%;
+  }
+

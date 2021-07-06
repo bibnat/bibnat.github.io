@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto MENA</title>
+    <link rel="stylesheet" type="text/css" href="contacto.css">
+</head>
+
+<body>
+    <nav class="header">
+        <ul>
+            <il><a href="..\MENA\index.html">Inicio</a></il>
+            <il><a href="..\MENA\cv.html">Enviar CV</a></il>
+        </ul>
+    </nav>
+
+    <header class="titulo">
+        <h1>PÓNGASE EN CONTACTO CON NOSOTROS</h1>
+    </header>
+
+
+
+    <section class="cuerpo">
+        
+        <form class="nya" name="name" action="#" method="GET"> Escriba su nombre y apellido:&nbsp;</form> <input aria-required="true" class="input" type="text" name="nombre" value="" placeholder="Escriba su nombre y apellido" required autofocus/>
+
+        <form class="cel" name="phone" action="#" method="GET"> Escriba su número de contacto:&nbsp;</form> <input aria-required="true" class="input" type="tel" name="teléfono" value="" placeholder="Escriba su número de contacto"/>
+
+        <form class="mail" name="mail" action="#" method="GET" autocomplete=" on"> Escriba la dirección de su mail:&nbsp;</form> <input aria-required="true" class="input" type="email" name="correo" value="" placeholder="Ingrese su mail" />
+
+      
+        <h3 class="rango">Marque el rango horario en el cual quiere que nos comuniquemos:</h3>
+        <form class="hora" action="">
+        <input  name="horario1" type="checkbox" value="9a12"/> De 9:00 a 12:00
+        <input  name="horario2" type="checkbox" value="12a16"/> De 12 a 15:00
+        <input  name="horario3" type="checkbox" value="9a12"/> De 15:00 a 18:00
+        </form>
+        <h3 class="consu">Escriba aquí su consulta:</h3>
+
+        <form action="">
+        <input class="textarea" id="id" placeholder="Escriba aquí el motivo de su consulta" cols="30" rows="10" ></textarea>
+        </form>
+        <div class="enviar">
+        <input  type="button" name="info de contacto" value="Enviar consulta"/>
+        </div>
+
+    </section>
+    <footer class="pie">
+        <p>Córdoba 1234 - Rosario - Tel. 4549457</p>
+    </footer>
+</html>
